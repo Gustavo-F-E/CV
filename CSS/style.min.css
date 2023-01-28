@@ -1,0 +1,2 @@
+*{margin:0;padding:0;box-sizing:content-box}body{width:100vw}@media all and (min-width: 576px){.nav{display:none}body{display:grid;grid-template-areas:"cabeza cabeza","aside main"}.header{grid-area:cabeza}.aside{grid-area:aside}.main{grid-area:main}}.header{display:flex;flex-direction:row}.foto{background-color:#11014c;width:30vw}.titulo{width:auto}.aside{background-color:#11014c;color:#fff}@media all and (min-width: 992px){.aside{width:30vw}}
+/*# sourceMappingURL=style.min.css.map */

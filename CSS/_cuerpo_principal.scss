@@ -1,0 +1,90 @@
+.main{
+    div{
+        padding: 2rem;
+    }
+}
+
+.experiencia_laboral{
+    padding: 1rem;
+    margin-left: 4rem;
+    margin-top: 2rem;
+
+    h2{
+        font-size: 3rem;
+        padding: 1rem;
+        color: rgb(17, 1, 76);
+        font-weight: 400;
+    }
+
+    li{
+        list-style: none;
+        margin-top: 2rem;
+
+        h3{
+            font-size: 2rem;
+            padding: 0.5rem;
+        }
+        p{
+            text-align: justify;
+            padding: 0.5rem;
+            width: 80%;
+            font-size: 1.8rem;
+        }
+    }
+}
+
+.estudios{
+    padding: 1rem;
+    margin-left: 4rem;
+    margin-top: 2rem;
+
+    h2{
+        font-size: 3rem;
+        padding: 0.5rem;
+        color: rgb(17, 1, 76);
+        font-weight: 400;
+    }
+
+    
+        ul{
+            li{
+                list-style: none;
+                padding: 0.5rem;
+                span{
+                    font-size: 1.8rem;
+                }
+            }
+        }
+    
+}
+
+.periodo{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.subrayado{
+    text-decoration: underline;
+}
+
+.referencias_laborales{
+    padding: 1rem;
+    margin-left: 4rem;
+    margin-top: 2rem;
+
+    h2{
+        font-size: 3rem;
+        padding: 0.5rem;
+        color: rgb(17, 1, 76);
+        font-weight: 400;
+    }
+}
+
+@media all and (min-width: 576px) {
+    .main{
+        width: 70%;
+    }
+}
+
+@media all and (min-width: 992px) {
+}

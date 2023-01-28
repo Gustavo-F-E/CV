@@ -1,0 +1,82 @@
+.aside{
+    background-color: rgb(17, 1, 76);
+    color: white;
+}
+
+.contacto{
+
+
+    div{
+        display: flex;
+        flex-direction: row;
+
+    div:first-child{
+        width: 30%;
+        svg{
+            width: 100%;
+            height: auto;
+            fill: white;
+        }
+    }
+
+    div:last-child{
+        width: 70%;
+        padding: 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+        color: white;
+    }
+
+    }
+}
+
+.front_end, .back_end, .idiomas, .software_de_ingenieria, .otros_cursos_e_intereses{
+    h3{
+        color:white;
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+
+    ul{
+        li{
+            padding: 0.5rem;
+
+            progress {
+                width: 70%;
+                height: 1.5rem;
+                color: #3fb6b2;
+                background: #efefef;
+            }
+            progress::-webkit-progress-bar {
+                background: #efefef;
+            }
+            progress::-webkit-progress-value {
+                background: #3fb6b2;
+            } 
+            progress::-moz-progress-bar {
+                color: #3fb6b2;
+                background: #efefef;
+            }
+        }
+    }
+
+
+}
+@media all and (min-width: 576px) {
+    .aside{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+        div{
+            padding: 1rem;
+        }
+    }
+}
+
+@media all and (min-width: 992px) {
+    
+}

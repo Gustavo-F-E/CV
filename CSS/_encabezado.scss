@@ -1,0 +1,42 @@
+.header{
+    display: flex;
+    flex-direction: row;
+}
+
+.foto{
+    background-color: rgb(17, 1, 76);
+    width: 30%;
+}
+
+.titulo{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    div{
+        p{
+            text-align: center;
+            color: navy;
+            padding: 1rem;
+            font-style: italic;
+            font-size: 2rem;
+        }
+    }
+}
+
+h1{
+    text-align: center;
+    padding: 2rem;
+    color: navy;
+    font-size: 4rem;
+}
+
+
+
+@media all and (min-width: 576px) {
+}
+
+@media all and (min-width: 992px) {
+}
